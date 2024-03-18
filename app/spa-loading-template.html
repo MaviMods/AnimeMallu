@@ -1,0 +1,51 @@
+<div class="app-loading-indicator">
+  <div class="loading-container">
+    <div class="sk-chase">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="margin: auto; background: none; display: block; shape-rendering: auto;" width="100px" height="100px"
+        viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+        <circle cx="50" cy="50" fill="none" stroke="#ffffff" stroke-width="5" r="32"
+          stroke-dasharray="150.79644737231007 52.26548245743669">
+          <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+            values="0 50 50;360 50 50" keyTimes="0;1"></animateTransform>
+        </circle>
+      </svg>
+    </div>
+    <img class="app-img" src="https://i.postimg.cc/7P1FBp9d/20240205-175839.png" alt="">
+  </div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+
+  .app-loading-indicator {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .loading-container  {
+      flex-direction: row;
+    }
+  }
+
+  .app-img {
+    width: 12rem;
+    height: 100%;
+  }
+
+  .sk-chase {
+    position: relative;
+  }
+  
+</style>

@@ -1,0 +1,13 @@
+version: "3"
+services:
+  amvstrm:
+    build:
+      context: .
+    ports:
+      - "80:80"
+    environment:
+      - API_URL=https://s2-prod-api.amvstr.me
+      - VERSION=v2
+      - DISQUS_ID=amvstrm
+      - POSTHOG_PK=phc_DUgKdAHdbQXBggiMP6BWHNk4oWJ3FH745xfhPPTjCuB
+      - POSTHOG_HOST=https://app.posthog.com
