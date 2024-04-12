@@ -43,7 +43,7 @@
       <v-list-item
         title="Telegram"
         target="blank"
-        href="https://t.me/mavimods2"
+        href="https://t.me/MODSMAVI"
       >
         <template #append>
           <v-icon icon="mdi-shield-crown" />
