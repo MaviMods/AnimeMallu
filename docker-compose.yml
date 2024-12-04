@@ -6,8 +6,8 @@ services:
     ports:
       - "80:80"
     environment:
-      - API_URL=https://s2-prod-api.amvstr.me
-      - VERSION=v2
+      - API_URL=https://dev-amvstrm-api.nyt92.eu.org
+      - VERSION=v1
       - DISQUS_ID=amvstrm
       - POSTHOG_PK=phc_DUgKdAHdbQXBggiMP6BWHNk4oWJ3FH745xfhPPTjCuB
       - POSTHOG_HOST=https://app.posthog.com
