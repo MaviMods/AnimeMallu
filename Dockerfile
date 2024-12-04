@@ -12,8 +12,8 @@ RUN npm install --production=false
 
 COPY --link . .
 
-ENV API_URL=https://api.amvstr.me
-ENV VERSION=v2
+ENV API_URL=https://dev-amvstrm-api.nyt92.eu.org
+ENV VERSION=v1
 ENV DISQUS_ID=
 ENV POSTHOG_PK=
 ENV POSTHOG_HOST=https://app.posthog.com
