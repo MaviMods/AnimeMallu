@@ -11,9 +11,9 @@ micros:
     presets:
       env:
         - name: API_URL
-          default: https://api.amvstr.me
+          default: https://dev-amvstrm-api.nyt92.eu.org
         - name: VERSION
-          default: v2  
+          default: v1  
         - name: DISQUS_ID
           default: ''
         - name : POSTHOG_PK
